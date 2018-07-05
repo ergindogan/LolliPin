@@ -3,6 +3,7 @@ package com.github.omadahealth.lollipin.lib.views;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
+import android.support.v4.content.res.ResourcesCompat;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -58,6 +59,7 @@ public class KeyboardButtonView extends RelativeLayout implements RippleAnimatio
                 TextView textView = (TextView) view.findViewById(R.id.keyboard_button_textview);
                 if (textView != null) {
                     textView.setText(text);
+                    textView.setTypeface(ResourcesCompat.getFont(mContext, R.font.lato_regular));
                 }
             }
             if (image != null) {

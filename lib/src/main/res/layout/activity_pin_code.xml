@@ -80,7 +80,7 @@
             android:layout_above="@+id/pin_code_fingerprint_textview"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:src="@drawable/ic_fp_40px" />
+            android:src="@drawable/ic_fingerprint" />
 
         <com.github.omadahealth.typefaceview.TypefaceTextView
             android:id="@+id/pin_code_fingerprint_textview"
